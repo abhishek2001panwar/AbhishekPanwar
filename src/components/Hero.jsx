@@ -21,6 +21,16 @@ function Hero() {
       ease: "power3.inOut",
       stagger: 0.3,
     });
+    gsap.from("img", {
+      x: -200,
+     
+      scale : 50,
+      duration: 2.5,
+      ease: "power3.inOut",
+      stagger: 0.3,
+
+    })
+    
   }, []);
   
   

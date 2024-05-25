@@ -1,15 +1,36 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 function Project() {
+
+  useGSAP(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(".project", {
+      y: -300,
+      duration: 1,
+      scale: 1,
+      ease: "power3.inOut",
+      stagger: 0.3,
+      scrollTrigger: {
+        trigger: ".projectdiv",
+        start: "top 10%",
+        end: "bottom 100%",
+        scrub: 1,
+
+      },
+    });
+  }, []);
   return (
     <>
       <div class="">
-        <div class="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8 projectdiv">
           <h2 class="text-3xl font-light text-black text-center mb-12">
             Featured Projects
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
+            <div class="project w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
               <div class="mb-4 flex ">
                 <a
                   target="blank"
@@ -45,7 +66,7 @@ function Project() {
 
               <div></div>
             </div>
-            <div class="w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
+            <div class="project w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
               <div class="mb-4 flex ">
                 <a
                   target="blank"
@@ -81,7 +102,7 @@ function Project() {
 
               <div></div>
             </div>
-            <div class="w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
+            <div class="project w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
               <div class="mb-4 flex ">
                 <a
                   target="blank"
@@ -117,7 +138,7 @@ function Project() {
 
               <div></div>
             </div>
-            <div class="w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
+            <div class="project w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
               <div class="mb-4 flex ">
                 <a
                   target="blank"
@@ -154,7 +175,7 @@ function Project() {
               <div></div>
             </div>
 
-            <div class="w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
+            <div class="project w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
               <div class="mb-4 flex ">
                 <a
                   target="blank"
