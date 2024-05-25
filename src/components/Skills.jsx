@@ -1,73 +1,82 @@
-import React from 'react'
+import React from 'react';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
+import { SiTailwindcss, SiExpress, SiMongodb, SiGit } from 'react-icons/si';
 
-function Skills() {
+const Skills = () => {
   return (
-    <> 
     <div className="bg-zinc-800">
-  {/* Skill Set Section */}
-  <section className="w-full min-h-screen bg-white py-12">
-    <div className="max-w-6xl mx-auto text-center">
-      {/* Heading */}
-      <h2 className="text-4xl font-bold text-gray-800 mb-8">Skill Set</h2>
-      {/* Skill Boxes */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 px-4">
-        {/* Skill Box 1 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 1</h3>
-          <p className="text-gray-700">Description of skill 1.</p>
+      {/* Skill Set Section */}
+      <section className="w-full min-h-screen bg-white py-12">
+        <div className="max-w-6xl mx-auto text-center">
+          {/* Heading */}
+          <h2 className="text-4xl font-bold text-gray-800 mb-8">Skill Set</h2>
+          {/* Skill Boxes */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 px-4">
+            {/* Skill Box 1 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <FaHtml5 className="text-4xl text-orange-600 mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">HTML</h3>
+              <p className="text-gray-700">Experienced in creating semantic and accessible markup.</p>
+            </div>
+            {/* Skill Box 2 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <FaCss3Alt className="text-4xl text-blue-500 mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">CSS</h3>
+              <p className="text-gray-700">Skilled in styling and responsive design using CSS.</p>
+            </div>
+            {/* Skill Box 3 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <FaJs className="text-4xl text-yellow-500 mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">JavaScript</h3>
+              <p className="text-gray-700">Proficient in JavaScript for interactive web development.</p>
+            </div>
+            {/* Skill Box 4 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <SiTailwindcss className="text-4xl text-teal-500 mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">Tailwind CSS</h3>
+              <p className="text-gray-700">Expert in using Tailwind for utility-first CSS styling.</p>
+            </div>
+            {/* Skill Box 5 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <FaReact className="text-4xl text-blue-400 mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">React</h3>
+              <p className="text-gray-700">Experienced in building dynamic UIs with React.</p>
+            </div>
+            {/* Skill Box 6 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <FaNodeJs className="text-4xl text-green-500 mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">Node.js</h3>
+              <p className="text-gray-700">Skilled in server-side development with Node.js.</p>
+            </div>
+            {/* Skill Box 7 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <SiExpress className="text-4xl text-black mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">Express</h3>
+              <p className="text-gray-700">Proficient in building RESTful APIs with Express.</p>
+            </div>
+            {/* Skill Box 8 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <SiMongodb className="text-4xl text-green-400 mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">MongoDB</h3>
+              <p className="text-gray-700">Experienced in NoSQL databases with MongoDB.</p>
+            </div>
+            {/* Skill Box 9 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <SiGit className="text-4xl text-red-500 mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">Git</h3>
+              <p className="text-gray-700">Proficient in version control using Git.</p>
+            </div>
+            {/* Skill Box 10 */}
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+              <FaGithub className="text-4xl text-black mb-2 mx-auto" />
+              <h3 className="text-xl font-semibold mb-2">GitHub</h3>
+              <p className="text-gray-700">Experienced in collaborative development with GitHub.</p>
+            </div>
+          </div>
         </div>
-        {/* Skill Box 2 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 2</h3>
-          <p className="text-gray-700">Description of skill 2.</p>
-        </div>
-        {/* Skill Box 3 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 3</h3>
-          <p className="text-gray-700">Description of skill 3.</p>
-        </div>
-        {/* Skill Box 4 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 4</h3>
-          <p className="text-gray-700">Description of skill 4.</p>
-        </div>
-        {/* Skill Box 5 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 5</h3>
-          <p className="text-gray-700">Description of skill 5.</p>
-        </div>
-        {/* Skill Box 6 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 6</h3>
-          <p className="text-gray-700">Description of skill 6.</p>
-        </div>
-        {/* Skill Box 7 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 7</h3>
-          <p className="text-gray-700">Description of skill 7.</p>
-        </div>
-        {/* Skill Box 8 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 8</h3>
-          <p className="text-gray-700">Description of skill 8.</p>
-        </div>
-        {/* Skill Box 9 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 9</h3>
-          <p className="text-gray-700">Description of skill 9.</p>
-        </div>
-        {/* Skill Box 10 */}
-        <div className="bg-gray-200 p-6 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
-          <h3 className="text-xl font-semibold mb-2">Skill 10</h3>
-          <p className="text-gray-700">Description of skill 10.</p>
-        </div>
-      </div>
+      </section>
     </div>
-  </section>
-</div>
+  );
+};
 
-    </>
-  )
-}
-
-export default Skills
+export default Skills;
