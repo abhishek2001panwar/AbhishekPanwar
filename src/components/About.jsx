@@ -5,12 +5,12 @@ function About() {
   return (
     <>
       <div class="">
-        <div class="min-h-screen flex items-center justify-center bg-white p-4">
+        <div class="min-h-screen flex items-center justify-center bg-[#626E4D]  p-0 md:p-4">
           <div class="max-w-2xl text-center">
-            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-10">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#434B34] mb-10">
               About
             </h2>
-            <p class="text-2xl font-semibold  md:text-3xl text-black p-3">
+            <p class="text-2xl font-semibold  md:text-3xl text-[#434B34] p-2 md:p-3">
               Welcome to our portfolio! We are a team of dedicated professionals
               committed to delivering high-quality projects. With a passion for
               excellence and a drive for innovation, we strive to exceed

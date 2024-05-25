@@ -18,14 +18,14 @@ function Project() {
                 <img
                   src="https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.jpg?s=612x612&w=0&k=20&c=S9odRE1_R0xaSQyjwY13tr410NKiJhJFiLRBX-X8c44="
                   alt="Project Image"
-                  class="w-full h-[60vh] object-cover rounded-lg"
+                  class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
               <div className="flex gap-4 mt-3">
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Node</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Mern</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">React</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">MongoDB</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Node</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Mern</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">React</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">MongoDB</button>
               </div>
 
               <div>
@@ -41,14 +41,14 @@ function Project() {
                 <img
                   src="https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.jpg?s=612x612&w=0&k=20&c=S9odRE1_R0xaSQyjwY13tr410NKiJhJFiLRBX-X8c44="
                   alt="Project Image"
-                  class="w-full h-[60vh] object-cover rounded-lg"
+                  class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
               <div className="flex gap-4 mt-3">
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Node</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Mern</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">React</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">MongoDB</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Node</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Mern</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">React</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">MongoDB</button>
               </div>
 
               <div>
@@ -64,14 +64,14 @@ function Project() {
                 <img
                   src="https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.jpg?s=612x612&w=0&k=20&c=S9odRE1_R0xaSQyjwY13tr410NKiJhJFiLRBX-X8c44="
                   alt="Project Image"
-                  class="w-full h-[60vh] object-cover rounded-lg"
+                  class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
               <div className="flex gap-4 mt-3">
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Node</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Mern</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">React</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">MongoDB</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Node</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Mern</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">React</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">MongoDB</button>
               </div>
 
               <div>
@@ -87,20 +87,21 @@ function Project() {
                 <img
                   src="https://media.istockphoto.com/id/1152537185/photo/hacker-working-on-laptop-in-the-dark.jpg?s=612x612&w=0&k=20&c=S9odRE1_R0xaSQyjwY13tr410NKiJhJFiLRBX-X8c44="
                   alt="Project Image"
-                  class="w-full h-[60vh] object-cover rounded-lg"
+                  class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
               <div className="flex gap-4 mt-3">
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Node</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Mern</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">React</button>
-             <button className="px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">MongoDB</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Node</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">Mern</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">React</button>
+             <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">MongoDB</button>
               </div>
 
               <div>
                 
               </div>
             </div>
+           
           </div>
         </div>
       </div>

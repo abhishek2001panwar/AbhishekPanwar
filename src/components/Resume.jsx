@@ -40,7 +40,6 @@ function Resume() {
     </div>
   </div>
 
-  <h1 className='font-light text-[20vh]'>web developer  </h1>
 </section>
 
     </>
