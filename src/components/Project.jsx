@@ -23,9 +23,8 @@ function Project() {
 
               <div class="">
                 <img
-
-src="https://media.istockphoto.com/id/1384900056/photo/stack-of-books-light-bulb-pencil-cup-and-take-away-coffee-over-blue-background-3d-rendering.jpg?s=612x612&w=0&k=20&c=CbT-dAKfHnrhGbvbxrnX1oh07iJWLVH5Tg15cntTzbU="
-alt="Project Image"
+                  src="https://media.istockphoto.com/id/1384900056/photo/stack-of-books-light-bulb-pencil-cup-and-take-away-coffee-over-blue-background-3d-rendering.jpg?s=612x612&w=0&k=20&c=CbT-dAKfHnrhGbvbxrnX1oh07iJWLVH5Tg15cntTzbU="
+                  alt="Project Image"
                   class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
@@ -60,9 +59,8 @@ alt="Project Image"
 
               <div class="">
                 <img
-
-src="https://media.istockphoto.com/id/1822218750/photo/two-speech-bubbles-with-play-icon.jpg?s=612x612&w=0&k=20&c=z9HXo2MjJXRsQKWqCuU2OTHkkTHPHqVVXLyqvs2-iiU="
-alt="Project Image"
+                  src="https://media.istockphoto.com/id/1822218750/photo/two-speech-bubbles-with-play-icon.jpg?s=612x612&w=0&k=20&c=z9HXo2MjJXRsQKWqCuU2OTHkkTHPHqVVXLyqvs2-iiU="
+                  alt="Project Image"
                   class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
@@ -97,8 +95,8 @@ alt="Project Image"
 
               <div class="">
                 <img
-src="https://media.istockphoto.com/id/1484146410/photo/young-friends-complimenting-female-friend-carrying-shopping-bag.jpg?s=612x612&w=0&k=20&c=iHQfCH8qxjPV6CfN2ESCfIfHrfYNAA76NZj6rzjjwyI="
-alt="Project Image"
+                  src="https://media.istockphoto.com/id/1484146410/photo/young-friends-complimenting-female-friend-carrying-shopping-bag.jpg?s=612x612&w=0&k=20&c=iHQfCH8qxjPV6CfN2ESCfIfHrfYNAA76NZj6rzjjwyI="
+                  alt="Project Image"
                   class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
@@ -133,9 +131,8 @@ alt="Project Image"
 
               <div class="">
                 <img
-
-src="https://media.istockphoto.com/id/1215072571/photo/cooking-food-using-recipe-on-a-digital-tablet.jpg?s=612x612&w=0&k=20&c=99XjNSTjzzNBzbglYk51fX1TyDjTX5ot3pNca9UhAr4="
-alt="Project Image"
+                  src="https://media.istockphoto.com/id/1215072571/photo/cooking-food-using-recipe-on-a-digital-tablet.jpg?s=612x612&w=0&k=20&c=99XjNSTjzzNBzbglYk51fX1TyDjTX5ot3pNca9UhAr4="
+                  alt="Project Image"
                   class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
@@ -171,14 +168,14 @@ alt="Project Image"
 
               <div class="">
                 <img
-src="https://media.istockphoto.com/id/1737269591/photo/3d-rendering-of-speech-bubble-3d-pastel-chat-icon-set-set-of-3d-speak-bubble.jpg?s=612x612&w=0&k=20&c=UZ0fDyi2GRAW85Zh4uCelp6SuzETGVxmUv060FGj3o4="
-alt="Project Image"
+                  src="https://media.istockphoto.com/id/1737269591/photo/3d-rendering-of-speech-bubble-3d-pastel-chat-icon-set-set-of-3d-speak-bubble.jpg?s=612x612&w=0&k=20&c=UZ0fDyi2GRAW85Zh4uCelp6SuzETGVxmUv060FGj3o4="
+                  alt="Project Image"
                   class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
                 />
               </div>
               <div className="flex gap-4 mt-3">
                 <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">
-Html
+                  Html
                 </button>
                 <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">
                   Tailwind
@@ -187,8 +184,8 @@ Html
                   React
                 </button>
                 <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">
-
-Javascript                </button>
+                  Javascript{" "}
+                </button>
               </div>
 
               <div></div>

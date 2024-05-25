@@ -1,15 +1,32 @@
-import React, { useState } from 'react';
+import gsap from 'gsap';
+import {useGSAP} from '@gsap/react'
+
+import React, { useEffect, useState } from 'react';
 
 function Navbar() {
+    useGSAP(() => {
+        gsap.from(".scroll a", {
+            y: -100,
+            
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.inOut",
+            stagger: 0.3 
+        });
+    }, []);
+
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const toggleMobileMenu = () => {
         setMobileMenuOpen(!mobileMenuOpen);
     };
 
+    
+
+
     return (
-        <nav className="text-black p-2  md:py-4 bg-white ">
-        <div className="container mx-auto flex justify-between  items-center">
+        <nav className="text-black scroll   p-2  md:py-4 bg-white ">
+        <div className="container nav mx-auto flex justify-between  items-center">
           {/* Logo/Brand */}
           <div className="text-black">
             <a href="#" className="text-xl font-light">Abhishek Panwar</a>

@@ -1,8 +1,30 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import abhi from '../../public/abhi.jpg'
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 function Hero() {
+
+
+  useGSAP(() => {
+    gsap.from(".text-4xl", {
+      y: -100,
+      duration: 2,
+      ease: "power3.inOut",
+      stagger: 0.3,
+    });
+    gsap.from("h2", {
+      y: -130,
+      duration: 2,
+      
+      ease: "power3.inOut",
+      stagger: 0.3,
+    });
+  }, []);
+  
+  
+  
   return (
     <div className="text-black">
   {/* Hero Container */}
