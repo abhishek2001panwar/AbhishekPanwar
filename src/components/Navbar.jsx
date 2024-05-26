@@ -56,7 +56,7 @@ function Navbar({ heroRef, aboutRef, projectRef, skillsRef, resumeRef, footerRef
           
           {/* Contact Button */}
           <div className="hidden lg:block">
-            <a href="#" className="hover:text-gray-300 hover:bg-black bg-white text-zinc-500 px-4 py-1 border-2 rounded-full">Contact</a>
+            <a onClick={()=>scrollToSection(footerRef)} href="#" className="hover:text-gray-300 hover:bg-black bg-white text-zinc-500 px-4 py-1 border-2 rounded-full">Contact</a>
           </div>
         </div>
   
