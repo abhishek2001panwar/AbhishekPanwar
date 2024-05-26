@@ -12,7 +12,7 @@ function Hero() {
       y: -100,
       duration: 2,
       ease: "power3.inOut",
-      stagger: 0.3,
+      stagger: 0.4,
     });
     gsap.from("h2", {
       y: -130,

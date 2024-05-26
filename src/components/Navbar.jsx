@@ -3,7 +3,12 @@ import {useGSAP} from '@gsap/react'
 
 import React, { useEffect, useState } from 'react';
 
-function Navbar() {
+function Navbar({ heroRef, aboutRef, projectRef, skillsRef, resumeRef, footerRef }) {
+  const scrollToSection = (ref) => {
+    ref.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
     useGSAP(() => {
         gsap.from(".scroll a", {
             y: -100,
@@ -43,10 +48,10 @@ function Navbar() {
   
           {/* Navigation Links */}
           <div className={`${mobileMenuOpen ? 'block' : 'hidden'} lg:flex space-y-1  md:ml-0 lg:space-y-0 lg:space-x-6 text-black mt-4 lg:mt-0`}>
-            <a href="#" className="block lg:inline hover:text-gray-300">About</a>
-            <a href="#" className="block lg:inline hover:text-gray-300">Work</a>
-            <a href="#" className="block lg:inline hover:text-gray-300">Interest</a>
-            <a href="#" className="block lg:inline hover:text-gray-300">Explore</a>
+            <a href="#" onClick={()=>scrollToSection(aboutRef)} className="block lg:inline hover:text-gray-300">About</a>
+            <a href="#" onClick={()=>scrollToSection(projectRef)}  className="block lg:inline hover:text-gray-300">Work</a>
+            <a href="#" onClick={()=>scrollToSection(skillsRef)} className="block lg:inline hover:text-gray-300">Interest</a>
+            <a href="#" onClick={()=>scrollToSection(resumeRef)} className="block lg:inline hover:text-gray-300">Explore</a>
           </div>
           
           {/* Contact Button */}
