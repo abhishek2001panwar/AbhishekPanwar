@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import abhi from '../../public/abhi.jpg'
+import abhi from '/abhi.jpg'
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 

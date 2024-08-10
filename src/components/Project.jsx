@@ -211,6 +211,42 @@ function Project() {
 
               <div></div>
             </div>
+            <div class="project w-[70vh] h-[80vh]  rounded-lg overflow-hidden p-6">
+              <div class="mb-4 flex ">
+                <a
+                  target="blank"
+                  href="https://github.com/abhishek2001panwar/codsoft"
+                  class="text-2xl font-light text-black"
+                >
+                  {" "}
+                  Connectify
+                </a>
+              </div>
+
+              <div class="">
+                <img
+src="https://media.istockphoto.com/id/540407554/photo/enter-key-with-find-job-businessman.jpg?s=612x612&w=0&k=20&c=1DNKuljPeunCMOPzcWM0itD5_B7Li4KZaC2pCcFdJd4="
+alt="Project Image"
+                  class="w-[40vh] md:w-full h-[60vh] object-cover rounded-lg"
+                />
+              </div>
+              <div className="flex gap-4 mt-3">
+                <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">
+                  MERN 
+                </button>
+                <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">
+                  Tailwind
+                </button>
+                <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">
+                  React
+                </button>
+                <button className="px-2 md:px-3 py-1 border-2 bg-white text-black hover:bg-black hover:text-white rounded-full">
+                  Javascript{" "}
+                </button>
+              </div>
+
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
