@@ -106,7 +106,7 @@ function Project() {
               <div class="mb-4 flex ">
                 <a
                   target="blank"
-                  href="https://github.com/abhishek2001panwar/Fashion-React"
+                  href="https://fashion-react-iota.vercel.app/"
                   class="text-2xl font-light text-black"
                 >
                   {" "}

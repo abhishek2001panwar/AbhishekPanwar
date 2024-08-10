@@ -35,7 +35,7 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a  target="blank" href="https://github.com/" className="hover:underline flex items-center">
+                    <a  target="blank" href="https://github.com/abhishek2001panwar" className="hover:underline flex items-center">
                       <FaGithub className="mr-2" /> GitHub
                     </a>
                   </li>
