@@ -7,16 +7,26 @@ import Footer from './components/Footer'
 import Skills from './components/Skills'
 import Resume from './components/Resume'
 
+import LocomotiveScroll from 'locomotive-scroll';
+
+
+
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
+
+  
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
   const projectRef = useRef(null);
   const skillsRef = useRef(null);
   const resumeRef = useRef(null);
   const footerRef = useRef(null);
-
+  
   return (
     <>
+    <div >
+
+    
       <Navbar  
         heroRef={heroRef}
         aboutRef={aboutRef}
@@ -43,6 +53,7 @@ function App() {
       </div>
       <div ref={footerRef}>
         <Footer />
+      </div>
       </div>
     </>
   )
